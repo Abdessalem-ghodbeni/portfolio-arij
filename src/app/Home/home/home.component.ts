@@ -4,6 +4,8 @@ import { ParcoursAccademiqueComponent } from '../../Components/parcours-accademi
 import { ExpProfessionnelComponent } from '../../Components/exp-professionnel/exp-professionnel.component';
 import { RecapExpProfessionnelComponent } from '../../Components/recap-exp-professionnel/recap-exp-professionnel.component';
 import { CompetenceComponent } from '../../Components/competence/competence.component';
+import { StagesComponent } from '../../Components/stages/stages.component';
+import { ProjetsComponent } from '../../Components/projets/projets.component';
 
 @Component({
   selector: 'app-home',
@@ -13,6 +15,8 @@ import { CompetenceComponent } from '../../Components/competence/competence.comp
     ExpProfessionnelComponent,
     RecapExpProfessionnelComponent,
     CompetenceComponent,
+    StagesComponent,
+    ProjetsComponent,
   ],
   standalone: true,
   templateUrl: './home.component.html',
