@@ -1,0 +1,19 @@
+.text-custumor{
+  color: black;
+}
+.footer-container {
+  background-image: url('/assets/arj-modified.png'); /* Remplacez 'votre-image.jpg' par le chemin de votre image */
+  background-size: cover; /* Ajuste l'image pour couvrir toute la surface */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  padding: 20px;
+  color: white; /* Change la couleur du texte pour le rendre lisible */
+  text-align: center;
+}
+
+.footer-content {
+  background: rgba(0, 0, 0, 0.5); /* Ajoute un fond semi-transparent pour le texte */
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}

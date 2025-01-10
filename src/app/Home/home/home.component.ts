@@ -6,6 +6,7 @@ import { RecapExpProfessionnelComponent } from '../../Components/recap-exp-profe
 import { CompetenceComponent } from '../../Components/competence/competence.component';
 import { StagesComponent } from '../../Components/stages/stages.component';
 import { ProjetsComponent } from '../../Components/projets/projets.component';
+import { FooterComponent } from '../../Components/footer/footer.component';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +18,7 @@ import { ProjetsComponent } from '../../Components/projets/projets.component';
     CompetenceComponent,
     StagesComponent,
     ProjetsComponent,
+    FooterComponent,
   ],
   standalone: true,
   templateUrl: './home.component.html',
